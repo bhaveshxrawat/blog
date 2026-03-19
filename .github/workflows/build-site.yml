@@ -44,4 +44,4 @@ jobs:
             -H "X-GitHub-SHA: ${{ inputs.commit_sha }}" \
             -H "X-GitHub-Branch: ${{ inputs.branch }}" \
             -F "tarball=@site.tar.gz" \
-            http://ddocs-github-app-staging.up.railway.app/api/upload
+            https://ddocs-github-app-staging.up.railway.app/api/upload
