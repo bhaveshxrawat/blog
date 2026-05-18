@@ -64,7 +64,7 @@ I have been using the [Qwen3.5:35B](https://unsloth.ai/docs/models/qwen3.5#qwen3
 
 | Hardware                                          | Tokens/sec (35B) | Tokens/sec (122B)   |
 | ------------------------------------------------- | ---------------- | ------------------- |
-| 5090 laptop                                       | 90               | Not possible to run |
+| 5090 laptop                                       | 90               | 9.5 (offloading majority to CPU) |
 | AMD Ryzen AI Max Pro (llama compiled with Vulkan) | 51               | 18                  |
 | DGX Spark                                         | 60               | 22                  |
 
