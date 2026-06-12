@@ -1,5 +1,5 @@
-[title]: <> ([font] Some ways to use ZK-SNARKs for privacy)
-[date]: <> (2026/06/12)
+[title]: <> ([font] -2 Some ways to use ZK-SNARKs for privacy)
+[date]: <> (2026/06/12T03:11:59.676Z)
 [category]: <> (general)
 
 gymmm Ipsummmmm Dolorrrrrrr fsafsafa
