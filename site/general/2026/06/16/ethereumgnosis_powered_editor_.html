@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+
+
+<link rel="alternate" type="application/rss+xml" href="../../../../feed.xml" title="Ethereum/Gnosis Powered Editor 👩‍🏭 🩷">
+
+
+
+<link rel="stylesheet" type="text/css" href="../../../../css/main.css">
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\(', '\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="../../../../scripts/tex-svg.js">
+</script>
+
+<style>
+</style>
+
+<div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
+
+<div id="color-mode-switch">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>
+  <input type="checkbox" id="switch" />
+  <label for="switch">Dark Mode Toggle</label>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+  </svg>
+</div>
+
+<script type="text/javascript">
+  // Update root html class to set CSS colors
+  const toggleDarkMode = () => {
+    const root = document.querySelector('html');
+    root.classList.toggle('dark');
+  }
+
+  // Update local storage value for colorScheme
+  const toggleColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
+    else localStorage.setItem('colorScheme', 'light');
+  }
+
+  // Set toggle input handler
+  const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
+  if (toggle) toggle.onclick = () => {
+    toggleDarkMode();
+    toggleColorScheme();
+  }
+
+  // Check for color scheme on init
+  const checkColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === null || colorScheme === undefined) {
+      // No saved preference — use OS preference
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        toggle.checked = true;
+        toggleDarkMode();
+        localStorage.setItem('colorScheme', 'dark');
+      } else {
+        localStorage.setItem('colorScheme', 'light');
+      }
+    } else if (colorScheme === 'dark') {
+      toggle.checked = true;
+      toggleDarkMode();
+    }
+  }
+  checkColorScheme();
+</script>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Ethereum/Gnosis Powered Editor 👩‍🏭 🩷" />
+<meta name="twitter:image" content="http://vitalik.ca/images/icon.png" />
+
+
+<br>
+<h1 style="margin-bottom:7px"> Ethereum/Gnosis Powered Editor 👩‍🏭 🩷 </h1>
+<small style="float:left; color: #888"> 2026 Jun 16 </small>
+<small style="float:right; color: #888"><a href="../../../../index.html">See all posts</a></small>
+<br> <br> <br>
+<title> Ethereum/Gnosis Powered Editor 👩‍🏭 🩷 </title>
+
+<h1 id="ethereumgnosis-powered-editor">Ethereum/Gnosis Powered Editor 👩‍🏭
+🩷</h1>
+<p>Claim 10GB of E2EE Storage &amp; your DappCon26 Floppy</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/dappcon-hero.png" /></p>
+<p>Congrats you're now the happyyy owner of a Fileverse Floppy! It
+unlocks enough encrypted storage for all your documents.</p>
+<p>Step outside of the broken cloud-based paradigm &amp; explore open
+collaboration, with privacy &amp; sovereignty by design⇩</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/image+(37).png" /></p>
+<p><strong>Ditch g**gle d*cs 💛</strong><br />
+3 billion people rely on a collaboration app that's closed, surveilling,
+and lock-in-driven. Your docs = their data to monetize. dDocs is your
+healthier alternative &lt;3</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/dDocs+(1).gif" /></p>
+<p><strong>Under the hood 👩‍🔧</strong><br />
+The infra combines onchain primitives with local computing, peer-to-peer
+networks &amp; public key cryptography. dDocs cracked the problem of p2p
+real-time collaboration with end-to-end encryption, without compromising
+on performance &amp; reliability</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/RTC.gif" /></p>
+<p><strong>Private by Design</strong> 👩‍💻<br />
+dDocs is fully end-to-end encrypted, only you and the ones you give
+access to -via ZK permissions- can view your docs. All your data stays
+fully in your control!</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/RTC_Launch_V5.gif" /></p>
+<p><strong>Open Source 🌱</strong><br />
+Closed-source platforms hide what they do with your data, often failing
+to protect it and never letting you move it freely. <a
+href="https://github.com/fileverse">dDocs is open source</a>, so you
+always know how it works</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/dappcon-feature.png" /></p>
+<p><strong>dDocs Features 👩‍🏭</strong></p>
+<p>The app comes with familiar features you'd expect + some you won't
+find anywhere else!</p>
+<ul>
+<li>Real-time &amp; async collaboration</li>
+<li>Dark mode &amp; custom themes</li>
+<li>Markdown / LaTeX / Mermaid</li>
+<li>ZK access permissions</li>
+<li>Mobile optimised</li>
+<li>Offline ready</li>
+</ul>
+<p>All with privacy &amp; good vibes 💕</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/RTC_Launch_V1.gif" /></p>
+<p><strong>How to claim your encrypted storage, floppy, &amp;
+freedom</strong></p>
+<ul>
+<li>Meet one of the Fileverse peers at Dappcon</li>
+<li>Scan the secret QR code</li>
+<li>And simply sign-up</li>
+</ul>
+<p>Enjoyyyyy collaborating as a self-sovereign! Feel free to get in
+touch with us anytime <a href="https://x.com/fileverse">on Twitter</a>
+if you have any feedback or requests... we ship faaaast
+<strong>✨️</strong>🏃‍♀️‍➡️</p>
+<p><img
+src="https://s3.eu-west-2.amazonaws.com/assets.fileverse.io/dapp/public/ssstwitter_com_1747752518578_V3-mini.gif" /></p>
+ </div> 
