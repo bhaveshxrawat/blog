@@ -51,7 +51,7 @@ jobs:
             -H "X-GitHub-SHA: ${{ inputs.commit_sha }}" \
             -H "X-GitHub-Branch: ${{ inputs.branch }}" \
             -F "tarball=@site.tar.gz" \
-            https://ddocs-github-app-staging.up.railway.app/api/upload
+            https://api-fileverse-blog.up.railway.app/api/upload
 
       - name: Commit built site to repository
         run: |
