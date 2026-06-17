@@ -4,7 +4,7 @@
 
 1. Updating testing
 2. manual update
-
+3. another manual update
 4. While making the first run of publishing, the moment publishing happened. The app crashed, and the app landed on the “Something went wrong“ generalized exception handling screen.  
       
     Since it happened all unexpectedly I couldn’t record it.
